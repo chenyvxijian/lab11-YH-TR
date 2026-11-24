@@ -1,3 +1,4 @@
+
 # https://github.com/chenyvxijian/lab11-YH-TR
 # Partner 1: Yun Hao
 # Partner 2: Tejal Rana
@@ -23,9 +24,9 @@ def mul(a, b):
 
 
 def div(a, b):
-    if a == 0:
+    if b == 0:
         raise ZeroDivisionError("Cannot divide by zero")
-    return b / a
+    return a / b
 
 
 def log(a, b):
@@ -49,14 +50,16 @@ def hypotenuse(a, b):
 
 
 def subtract(a, b):
-    return a - b
+    return sub(a, b)
 
 
 def multiply(a, b):
-    return a * b
+    return mul(a, b)
+
+
+def divide(a, b):
+    return div(a, b)
 
 
 def logarithm(a, b):
-    if a <= 0 or a == 1 or b <= 0:
-        raise ValueError("Invalid arguments for logarithm")
-    return math.log(b, a)
+    return log(a, b)
