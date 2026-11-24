@@ -1,15 +1,15 @@
-"""
-test_calculator.py
-- Unit tests for calculator.py
-"""
 # https://github.com/chenyvxijian/lab11-YH-TR
 # Partner 1: Yun Hao
 # Partner 2: Tejal Rana
 
+"""
+test_calculator.py
+- Unit tests for calculator.py
+"""
+
 import math
 import unittest
 from calculator import *
-
 
 class TestCalculator(unittest.TestCase):
 
